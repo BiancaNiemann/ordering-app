@@ -1,0 +1,200 @@
+body {
+    margin: 20px auto;
+    font-family: 'Smythe', cursive;
+    width: 500px;
+    color: #000000;
+    font-weight: 400;
+} 
+
+.header{
+    background-image: url(ferks-guare-KEZdWfYD-ow-unsplash.jpg);
+    width: 100%;
+    height: 140px;
+    background-size: 500px 220px;
+    background-repeat: no-repeat;
+    padding-top: 46px;
+    padding-left: 46px;
+    color: #ffffff;
+}
+
+h1{
+    font-size: 40px;
+}
+
+h2{
+    font-size: 28px;
+    margin: 0 0 0 15px
+}
+
+h3{
+    font-size: 22px;
+    margin-top: 5px 
+}
+
+h4{
+    margin: 10px 0 20px 15px;
+}
+
+h5{
+    color: #8b8b8b;
+    margin: 10px 0 0 15px;
+    width: 160px
+}
+
+h1, .emoji{
+    margin: 0;
+}
+
+h4, input, .pay-btn{
+    font-size: 20px;
+}
+
+h5, .order-btn{
+    font-size: 16px;
+}
+
+.default-state, .pre-order{
+    margin: 0 auto;
+    border-bottom: 1.5px solid #d2d2d2;
+}
+
+.order-complete-state, .pay-box, .default-state, .pre-order{
+    width: 450px;   
+}
+
+.order-complete-state, .default-state, .pre-order{
+    padding-top: 40px;
+}
+
+.emoji{
+    font-size: 70px;
+    opacity: 0.65;
+    width: 80px;
+}
+
+.plus-button{
+    font-size: 32px;
+    font-family: 'Inter', sans-serif;
+    border:  1.5px solid #DEDEDE;
+    border-radius: 50%;
+    width: 45px;
+    height: 45px;
+    padding-bottom: 15px;
+    margin-left: auto;
+    background-color: transparent;
+}
+
+.remove, .plus-button{
+    cursor: pointer    
+}
+
+.pre-order, .your-order, .enter{
+    margin-bottom: 30px;
+}
+
+button{
+    border: none;    
+}
+
+.pre-order, .pay-box{
+    flex-direction: column;
+}
+
+.order-complete-state, .your-order, .enter{
+    text-align: center;
+}
+
+.order-items, .total-price, .pay-box, .pre-order, .default-state{
+    display: flex;
+}
+
+.total-price{
+    border-top: 2px solid #393333;
+}
+
+.total{
+    margin-top: 14px; 
+}
+
+.amount{
+    margin-left: auto;
+    padding-right: 20px;
+}
+
+.remove, .order-btn, .pay-box, .pay-btn, input{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;   
+}
+
+.remove{
+    color: #bbbbbb;
+    font-size: 12px;
+    margin-left: 15px;
+}
+
+.order-btn{
+    width: 100%;
+    height: 50px;
+    margin-top: 20px
+}
+
+.order-btn, .pay-btn{
+    color: #ffffff;
+    background-color: #16dB99;
+}
+
+.pay-box, .pay-btn {
+    border-radius: 4px;    
+}
+
+.pay-box{
+    position: fixed;
+    top: 200px;
+    margin-left: 26px;
+    height: 450px;
+    background-color: #ffffff;
+}
+
+.enter{
+    margin-top: 40px;
+    font-weight: 700;
+    font-size: 24px; 
+}
+
+input{
+    border: 1.3px solid #757575;
+    border-radius: 3.88px;
+    font-weight: 400;
+    color: #757575;
+    padding-left: 26px;
+    height: 70px;
+    margin: 0 auto 20px auto;
+    width: 350px;
+}
+
+.pay-btn{
+    margin: 20px auto 20px auto;
+    width: 376px;
+    height: 70px;
+    font-weight: 700;
+}
+
+.order-complete-state{
+    margin: 40px auto 30px auto;
+    background-color: #ecfdf5;
+    border-radius: 3px;
+    height: 70px;
+    padding-bottom: 10px;
+}
+
+.background{
+    background-color: #f5f5f5;
+}
+
+.thanks{
+    color: #065f46;
+    font-size: 33px;
+}
+
+.hidden{
+    display:none;
+}
